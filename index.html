@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌤 CityWeather</h1>
+        <input type="text" id="cityInput" placeholder="Enter City Name ">
+        <button id="getWeatherBtn">Get Weather</button>
+        
+        <div id="errorMessage" class="error-message"></div>
+
+        <div class="info-container">
+            <div class="info-box city">
+                <p>🌍 City</p>
+                <span id="city-name">----</span>
+            </div>
+            <div class="info-box temp">
+                <p>🌡 Temperature</p>
+                <span id="temperature">--°C</span>
+            </div>
+            <div class="info-box wind">
+                <p>💨 Wind Speed</p>
+                <span id="wind-speed">-- km/h</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+/* 🔹 General Page Styling */
+body {
+    background: #cde6f7; /* Soft Blue Background */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* 🔹 Main Weather Container */
+.container {
+    background: rgb(48, 127, 255);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(58, 58, 58 ,0.4 );
+}
+
+/* 🔹 Title */
+h1 {
+    color: #ffc068;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+/* 🔹 Input Field */
+#cityInput {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #fab452;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+    color: #333;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+#cityInput::placeholder {
+    color: #1b7af7;
+}
+
+#cityInput:focus {
+    border-color: #ffffff;
+}
+
+/* 🔹 Button */
+#getWeatherBtn {
+    background:#fdbd64 ;
+    color: rgb(6, 6, 6);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+#getWeatherBtn:hover {
+    background:#fab452;
+    transform: scale(1.08);
+}
+
+/* 🔹 Error Message */
+.error-message {
+    color: #fab452;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 🔹 Information Container */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* 🔹 Information Boxes */
+.info-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    border: 2px solid #fab452;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-box:hover {
+    background:#fab452;
+    cursor: pointer;
+}
